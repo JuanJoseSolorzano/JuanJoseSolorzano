@@ -1,0 +1,222 @@
+------------------------------------------------
+REPO: ArduinoInstaller
+	-Shell: 4,434 bytes (100.0%)
+------------------------------------------------
+REPO: BashBanditGame
+	-Shell: 4,894 bytes (100.0%)
+------------------------------------------------
+REPO: Catr
+	-Python: 3,627 bytes (100.0%)
+------------------------------------------------
+REPO: ChadNvimCnfFiles
+	-Lua: 2,183 bytes (100.0%)
+------------------------------------------------
+REPO: ci-cd-final-project
+	-Python: 15,479 bytes (87.54%)
+	-Shell: 1,640 bytes (9.27%)
+	-Dockerfile: 491 bytes (2.78%)
+	-Procfile: 72 bytes (0.41%)
+------------------------------------------------
+REPO: CsharpAndPythonComm
+	-C#: 8,101 bytes (100.0%)
+------------------------------------------------
+REPO: DatabasesMaster
+------------------------------------------------
+REPO: DummyJenkinsRepo
+------------------------------------------------
+REPO: EjemplosDeRedesNeuronalesMaster
+	-Python: 37,465 bytes (83.93%)
+	-C#: 7,172 bytes (16.07%)
+------------------------------------------------
+REPO: EmotionalRegulationForFAtiMA
+	-C#: 715,903 bytes (100.0%)
+------------------------------------------------
+REPO: EnglishAI
+	-Python: 7,538 bytes (85.35%)
+	-PowerShell: 1,294 bytes (14.65%)
+------------------------------------------------
+REPO: ExecPS1Command
+	-JavaScript: 1,651 bytes (100.0%)
+------------------------------------------------
+REPO: FileReader
+	-Python: 6,925 bytes (100.0%)
+------------------------------------------------
+REPO: GeneticAlgorithmsExamples
+	-Python: 1,581 bytes (100.0%)
+------------------------------------------------
+REPO: GetJiraInfo
+	-Python: 4,756 bytes (100.0%)
+------------------------------------------------
+REPO: GetJiraTicket
+	-Python: 6,220 bytes (100.0%)
+------------------------------------------------
+REPO: GitBranchesVscodeExtension
+	-JavaScript: 1,824 bytes (100.0%)
+------------------------------------------------
+REPO: GitCloneWithSubmodules
+	-TypeScript: 4,166 bytes (54.1%)
+	-JavaScript: 1,266 bytes (16.44%)
+	-Dockerfile: 1,196 bytes (15.53%)
+	-Batchfile: 1,073 bytes (13.93%)
+------------------------------------------------
+REPO: GitCommitWithAuthorVSVodeExtension
+	-JavaScript: 2,361 bytes (71.92%)
+	-TypeScript: 922 bytes (28.08%)
+------------------------------------------------
+REPO: GitFakeExtensionVSCodeExtension
+	-JavaScript: 2,361 bytes (58.22%)
+	-TypeScript: 1,694 bytes (41.78%)
+------------------------------------------------
+REPO: GitHelperExecutable
+	-C#: 9,230 bytes (100.0%)
+------------------------------------------------
+REPO: GitRestoreBranch
+	-JavaScript: 6,667 bytes (100.0%)
+------------------------------------------------
+REPO: Gpt3ModelTest
+	-C#: 6,202 bytes (100.0%)
+------------------------------------------------
+REPO: Gpt3WithGUI
+	-Python: 13,067,168 bytes (99.29%)
+	-Cython: 56,075 bytes (0.43%)
+	-PowerShell: 27,653 bytes (0.21%)
+	-Roff: 7,997 bytes (0.06%)
+	-Batchfile: 1,322 bytes (0.01%)
+	-Shell: 946 bytes (0.01%)
+------------------------------------------------
+REPO: hackerpwm
+	-Shell: 117,558 bytes (100.0%)
+------------------------------------------------
+REPO: IAUsingPython
+	-Python: 27,339 bytes (100.0%)
+------------------------------------------------
+REPO: JavaMasterPractices
+	-Java: 3,612 bytes (100.0%)
+------------------------------------------------
+REPO: JavaProjectMaster
+	-Java: 65,147 bytes (100.0%)
+------------------------------------------------
+REPO: JuanJoseSolorzano
+------------------------------------------------
+REPO: JuanJoseSolorzano.github.io
+	-Jupyter Notebook: 96,890 bytes (80.96%)
+	-HTML: 14,979 bytes (12.52%)
+	-Python: 4,375 bytes (3.66%)
+	-SCSS: 3,253 bytes (2.72%)
+	-Ruby: 182 bytes (0.15%)
+------------------------------------------------
+REPO: LegacyJuanjosesolo.github.io
+	-HTML: 10,725 bytes (75.73%)
+	-SCSS: 3,255 bytes (22.98%)
+	-Ruby: 182 bytes (1.29%)
+------------------------------------------------
+REPO: LinuxConfigurationFiles
+	-Shell: 92,374 bytes (91.62%)
+	-Vim Script: 4,885 bytes (4.85%)
+	-Python: 3,565 bytes (3.54%)
+------------------------------------------------
+REPO: MachineLearning
+	-Python: 8,007 bytes (100.0%)
+------------------------------------------------
+REPO: MyLaTeXResume
+	-TeX: 11,085 bytes (100.0%)
+------------------------------------------------
+REPO: OpenFileWithExtensionVSCodeExtension
+	-JavaScript: 2,361 bytes (61.81%)
+	-TypeScript: 1,459 bytes (38.19%)
+------------------------------------------------
+REPO: OpenFileWithVSCodeExtension
+	-TypeScript: 2,483 bytes (100.0%)
+------------------------------------------------
+REPO: OwnCmpNvimWithCopilot
+	-Lua: 738 bytes (67.03%)
+	-Makefile: 202 bytes (18.35%)
+	-Shell: 161 bytes (14.62%)
+------------------------------------------------
+REPO: PatternRecognitionMaster
+	-Jupyter Notebook: 191,352 bytes (100.0%)
+------------------------------------------------
+REPO: PipelineExampleJenkins
+	-Groovy: 1,209 bytes (100.0%)
+------------------------------------------------
+REPO: PowershellInstaller
+	-C: 13,221 bytes (100.0%)
+------------------------------------------------
+REPO: PowershellScriptingTest
+	-PowerShell: 1,934 bytes (100.0%)
+------------------------------------------------
+REPO: PowershellSuite
+	-PowerShell: 1,058,787 bytes (99.74%)
+	-Python: 2,721 bytes (0.26%)
+------------------------------------------------
+REPO: PowershellSuiteV1.0
+	-PowerShell: 31,495 bytes (100.0%)
+------------------------------------------------
+REPO: PracticeC
+	-C: 12,747 bytes (98.29%)
+	-C++: 222 bytes (1.71%)
+------------------------------------------------
+REPO: PythonEnvWithCSharp
+	-C#: 7,907 bytes (100.0%)
+------------------------------------------------
+REPO: PythonEnvWithPwsh
+	-PowerShell: 19,174 bytes (84.17%)
+	-C: 3,606 bytes (15.83%)
+------------------------------------------------
+REPO: PythonScriptingTest
+	-Python: 8,052 bytes (100.0%)
+------------------------------------------------
+REPO: ResumeTemplate
+	-TeX: 7,766 bytes (91.6%)
+	-Dockerfile: 578 bytes (6.82%)
+	-Shell: 134 bytes (1.58%)
+------------------------------------------------
+REPO: RockPaperScissorsGameMaster
+	-C++: 21,627 bytes (100.0%)
+------------------------------------------------
+REPO: ScottPlot
+	-C#: 2,955,313 bytes (98.5%)
+	-HTML: 17,439 bytes (0.58%)
+	-Jupyter Notebook: 12,600 bytes (0.42%)
+	-Python: 5,978 bytes (0.2%)
+	-CSS: 5,599 bytes (0.19%)
+	-Batchfile: 2,924 bytes (0.1%)
+	-Shell: 266 bytes (0.01%)
+	-Dockerfile: 41 bytes (0.0%)
+	-Smalltalk: 6 bytes (0.0%)
+------------------------------------------------
+REPO: SetJiraComment
+	-Python: 3,718 bytes (100.0%)
+------------------------------------------------
+REPO: SetJiraTime
+	-Python: 1,971 bytes (100.0%)
+------------------------------------------------
+REPO: TerminalInstaller
+	-Shell: 6,405 bytes (100.0%)
+------------------------------------------------
+REPO: UnityGameAndEmotionRegulation
+	-C#: 70,162 bytes (97.12%)
+	-JavaScript: 2,082 bytes (2.88%)
+------------------------------------------------
+REPO: VimAhkAutoHotkey
+	-AutoHotkey: 78,210 bytes (99.11%)
+	-Batchfile: 704 bytes (0.89%)
+------------------------------------------------
+REPO: VSCodeConfigFiles
+------------------------------------------------
+REPO: VscodePythonEnvironment
+	-TypeScript: 32,863 bytes (96.29%)
+	-JavaScript: 1,266 bytes (3.71%)
+------------------------------------------------
+REPO: VscodeSettingsFiles
+------------------------------------------------
+REPO: WindowsMics
+	-Python: 7,206 bytes (59.92%)
+	-JavaScript: 1,824 bytes (15.17%)
+	-PowerShell: 1,438 bytes (11.96%)
+	-Lua: 923 bytes (7.67%)
+	-Batchfile: 636 bytes (5.29%)
+------------------------------------------------
+REPO: WindowsRightClick
+	-Batchfile: 1,766 bytes (100.0%)
+README updated with 18 repos.
