@@ -1,0 +1,521 @@
+{
+    "ArduinoInstaller": {
+        "Shell": [
+            100.0,
+            4434
+        ]
+    },
+    "BashBanditGame": {
+        "Shell": [
+            100.0,
+            4894
+        ]
+    },
+    "Catr": {
+        "Python": [
+            100.0,
+            3627
+        ]
+    },
+    "ChadNvimCnfFiles": {
+        "Lua": [
+            100.0,
+            2183
+        ]
+    },
+    "ci-cd-final-project": {
+        "Python": [
+            87.54,
+            15479
+        ],
+        "Shell": [
+            9.27,
+            1640
+        ],
+        "Dockerfile": [
+            2.78,
+            491
+        ],
+        "Procfile": [
+            0.41,
+            72
+        ]
+    },
+    "CsharpAndPythonComm": {
+        "C#": [
+            100.0,
+            8101
+        ]
+    },
+    "DatabasesMaster": {},
+    "DummyJenkinsRepo": {},
+    "EjemplosDeRedesNeuronalesMaster": {
+        "Python": [
+            83.93,
+            37465
+        ],
+        "C#": [
+            16.07,
+            7172
+        ]
+    },
+    "EmotionalRegulationForFAtiMA": {
+        "C#": [
+            100.0,
+            715903
+        ]
+    },
+    "EnglishAI": {
+        "Python": [
+            85.35,
+            7538
+        ],
+        "PowerShell": [
+            14.65,
+            1294
+        ]
+    },
+    "ExecPS1Command": {
+        "JavaScript": [
+            100.0,
+            1651
+        ]
+    },
+    "FileReader": {
+        "Python": [
+            100.0,
+            6925
+        ]
+    },
+    "GeneticAlgorithmsExamples": {
+        "Python": [
+            100.0,
+            1581
+        ]
+    },
+    "GetJiraInfo": {
+        "Python": [
+            100.0,
+            4756
+        ]
+    },
+    "GetJiraTicket": {
+        "Python": [
+            100.0,
+            6220
+        ]
+    },
+    "GitBranchesVscodeExtension": {
+        "JavaScript": [
+            100.0,
+            1824
+        ]
+    },
+    "GitCloneWithSubmodules": {
+        "TypeScript": [
+            54.1,
+            4166
+        ],
+        "JavaScript": [
+            16.44,
+            1266
+        ],
+        "Dockerfile": [
+            15.53,
+            1196
+        ],
+        "Batchfile": [
+            13.93,
+            1073
+        ]
+    },
+    "GitCommitWithAuthorVSVodeExtension": {
+        "JavaScript": [
+            71.92,
+            2361
+        ],
+        "TypeScript": [
+            28.08,
+            922
+        ]
+    },
+    "GitFakeExtensionVSCodeExtension": {
+        "JavaScript": [
+            58.22,
+            2361
+        ],
+        "TypeScript": [
+            41.78,
+            1694
+        ]
+    },
+    "GitHelperExecutable": {
+        "C#": [
+            100.0,
+            9230
+        ]
+    },
+    "GitRestoreBranch": {
+        "JavaScript": [
+            100.0,
+            6667
+        ]
+    },
+    "Gpt3ModelTest": {
+        "C#": [
+            100.0,
+            6202
+        ]
+    },
+    "Gpt3WithGUI": {
+        "Python": [
+            99.29,
+            13067168
+        ],
+        "Cython": [
+            0.43,
+            56075
+        ],
+        "PowerShell": [
+            0.21,
+            27653
+        ],
+        "Roff": [
+            0.06,
+            7997
+        ],
+        "Batchfile": [
+            0.01,
+            1322
+        ],
+        "Shell": [
+            0.01,
+            946
+        ]
+    },
+    "hackerpwm": {
+        "Shell": [
+            100.0,
+            117558
+        ]
+    },
+    "IAUsingPython": {
+        "Python": [
+            100.0,
+            27339
+        ]
+    },
+    "JavaMasterPractices": {
+        "Java": [
+            100.0,
+            3612
+        ]
+    },
+    "JavaProjectMaster": {
+        "Java": [
+            100.0,
+            65147
+        ]
+    },
+    "JuanJoseSolorzano": {},
+    "JuanJoseSolorzano.github.io": {
+        "Jupyter Notebook": [
+            80.96,
+            96890
+        ],
+        "HTML": [
+            12.52,
+            14979
+        ],
+        "Python": [
+            3.66,
+            4375
+        ],
+        "SCSS": [
+            2.72,
+            3253
+        ],
+        "Ruby": [
+            0.15,
+            182
+        ]
+    },
+    "LegacyJuanjosesolo.github.io": {
+        "HTML": [
+            75.73,
+            10725
+        ],
+        "SCSS": [
+            22.98,
+            3255
+        ],
+        "Ruby": [
+            1.29,
+            182
+        ]
+    },
+    "LinuxConfigurationFiles": {
+        "Shell": [
+            91.62,
+            92374
+        ],
+        "Vim Script": [
+            4.85,
+            4885
+        ],
+        "Python": [
+            3.54,
+            3565
+        ]
+    },
+    "MachineLearning": {
+        "Python": [
+            100.0,
+            8007
+        ]
+    },
+    "MyLaTeXResume": {
+        "TeX": [
+            100.0,
+            11085
+        ]
+    },
+    "OpenFileWithExtensionVSCodeExtension": {
+        "JavaScript": [
+            61.81,
+            2361
+        ],
+        "TypeScript": [
+            38.19,
+            1459
+        ]
+    },
+    "OpenFileWithVSCodeExtension": {
+        "TypeScript": [
+            100.0,
+            2483
+        ]
+    },
+    "OwnCmpNvimWithCopilot": {
+        "Lua": [
+            67.03,
+            738
+        ],
+        "Makefile": [
+            18.35,
+            202
+        ],
+        "Shell": [
+            14.62,
+            161
+        ]
+    },
+    "PatternRecognitionMaster": {
+        "Jupyter Notebook": [
+            100.0,
+            191352
+        ]
+    },
+    "PipelineExampleJenkins": {
+        "Groovy": [
+            100.0,
+            1209
+        ]
+    },
+    "PowershellInstaller": {
+        "C": [
+            100.0,
+            13221
+        ]
+    },
+    "PowershellScriptingTest": {
+        "PowerShell": [
+            100.0,
+            1934
+        ]
+    },
+    "PowershellSuite": {
+        "PowerShell": [
+            99.74,
+            1058787
+        ],
+        "Python": [
+            0.26,
+            2721
+        ]
+    },
+    "PowershellSuiteV1.0": {
+        "PowerShell": [
+            100.0,
+            31495
+        ]
+    },
+    "PracticeC": {
+        "C": [
+            98.29,
+            12747
+        ],
+        "C++": [
+            1.71,
+            222
+        ]
+    },
+    "PythonEnvWithCSharp": {
+        "C#": [
+            100.0,
+            7907
+        ]
+    },
+    "PythonEnvWithPwsh": {
+        "PowerShell": [
+            84.17,
+            19174
+        ],
+        "C": [
+            15.83,
+            3606
+        ]
+    },
+    "PythonScriptingTest": {
+        "Python": [
+            100.0,
+            8052
+        ]
+    },
+    "ResumeTemplate": {
+        "TeX": [
+            91.6,
+            7766
+        ],
+        "Dockerfile": [
+            6.82,
+            578
+        ],
+        "Shell": [
+            1.58,
+            134
+        ]
+    },
+    "RockPaperScissorsGameMaster": {
+        "C++": [
+            100.0,
+            21627
+        ]
+    },
+    "ScottPlot": {
+        "C#": [
+            98.5,
+            2955313
+        ],
+        "HTML": [
+            0.58,
+            17439
+        ],
+        "Jupyter Notebook": [
+            0.42,
+            12600
+        ],
+        "Python": [
+            0.2,
+            5978
+        ],
+        "CSS": [
+            0.19,
+            5599
+        ],
+        "Batchfile": [
+            0.1,
+            2924
+        ],
+        "Shell": [
+            0.01,
+            266
+        ],
+        "Dockerfile": [
+            0.0,
+            41
+        ],
+        "Smalltalk": [
+            0.0,
+            6
+        ]
+    },
+    "SetJiraComment": {
+        "Python": [
+            100.0,
+            3718
+        ]
+    },
+    "SetJiraTime": {
+        "Python": [
+            100.0,
+            1971
+        ]
+    },
+    "TerminalInstaller": {
+        "Shell": [
+            100.0,
+            6405
+        ]
+    },
+    "UnityGameAndEmotionRegulation": {
+        "C#": [
+            97.12,
+            70162
+        ],
+        "JavaScript": [
+            2.88,
+            2082
+        ]
+    },
+    "VimAhkAutoHotkey": {
+        "AutoHotkey": [
+            99.11,
+            78210
+        ],
+        "Batchfile": [
+            0.89,
+            704
+        ]
+    },
+    "VSCodeConfigFiles": {},
+    "VscodePythonEnvironment": {
+        "TypeScript": [
+            96.29,
+            32863
+        ],
+        "JavaScript": [
+            3.71,
+            1266
+        ]
+    },
+    "VscodeSettingsFiles": {},
+    "WindowsMics": {
+        "Python": [
+            59.92,
+            7206
+        ],
+        "JavaScript": [
+            15.17,
+            1824
+        ],
+        "PowerShell": [
+            11.96,
+            1438
+        ],
+        "Lua": [
+            7.67,
+            923
+        ],
+        "Batchfile": [
+            5.29,
+            636
+        ]
+    },
+    "WindowsRightClick": {
+        "Batchfile": [
+            100.0,
+            1766
+        ]
+    }
+}

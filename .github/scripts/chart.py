@@ -7,10 +7,17 @@ Output: language_chart.png
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import json
 
+DATA_PCT_PATH = ".github/scripts/resources/data_pct.json"
+PLOT_PATH = ".github/scripts/resources/language_chart.png"
 # --- Data from README ---
-languages = ["Python", "C#", "PowerShell", "Jupyter", "Shell", "Other"]
-sizes     = [69.2, 19.8, 6.0, 1.6, 1.2, 2.2]
+with open(DATA_PCT_PATH,'r') as file:
+    file_info = json.load(file)
+languages = list(file_info.keys())
+sizes = list(file_info.values())
+#languages = ["Python", "C#", "PowerShell", "Jupyter", "Shell", "Other"]
+#sizes     = [69.2, 19.8, 6.0, 1.6, 1.2, 2.2]
 
 # Create a DataFrame for seaborn
 df = pd.DataFrame({"Language": languages, "Percentage": sizes})
@@ -70,6 +77,6 @@ ax.set_ylabel("")
 
 # --- Save the figure ---
 plt.tight_layout()
-plt.savefig("language_chart.png", dpi=200, bbox_inches="tight", facecolor="#0D1117")
+plt.savefig(PLOT_PATH, dpi=200, bbox_inches="tight", facecolor="#0D1117")
 plt.close()
 print("✅ Chart saved → language_chart.png")

@@ -1,0 +1,17 @@
+{
+    "others": 0.21000000000000002,
+    "Shell": 1.2,
+    "Python": 69.23,
+    "C#": 19.79,
+    "PowerShell": 5.98,
+    "JavaScript": 0.12,
+    "TypeScript": 0.23,
+    "Cython": 0.29,
+    "Java": 0.36,
+    "Jupyter Notebook": 1.58,
+    "HTML": 0.23,
+    "TeX": 0.1,
+    "C": 0.15,
+    "C++": 0.11,
+    "AutoHotkey": 0.41
+}

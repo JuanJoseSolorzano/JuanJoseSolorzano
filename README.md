@@ -17,7 +17,7 @@
   </sub>
 </p>
 
-![Languages](.github/scripts/language_chart.png)
+![Languages](.github/scripts/resources/language_chart.png)
 ---
 
 ## 🌐 All Repositories
