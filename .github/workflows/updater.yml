@@ -29,12 +29,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
         run: python .github/scripts/chart.py
-      
-      - name: Install Official Copilot Extension
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: gh extension install github/gh-copilot
-
+        
       - name: Generate README using Copilot
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }} 
