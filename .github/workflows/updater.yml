@@ -29,19 +29,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
         run: python .github/scripts/chart.py
-      - name: Setup Copilot
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Copilot CLI
-        run: npm install -g @githubnext/github-copilot-cli
+      
+      - name: Install Official Copilot Extension
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: gh extension install github/gh-copilot
 
       - name: Generate README using Copilot
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }} 
         run: |
-          github-copilot-cli what-the-shell "Review the current README.md file, based on this readme, look for the new repository in the ./scripts/resources/data.json file, if exist new repo add it in its corresponding section." --programmatic > README.md
+          gh copilot prompt "Review the current README.md file, based on this readme, look for the new repository in the ./scripts/resources/data.json file, if exist new repo add it in its corresponding section." --no-ask-user > README.md
       
       - name: Commit and Push Changes
         run: |
