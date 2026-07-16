@@ -38,7 +38,8 @@ jobs:
         run: npm install -g @githubnext/github-copilot-cli
 
       - name: Generate README using Copilot
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }} 
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }} 
         run: |
           github-copilot-cli what-the-shell "Review the current README.md file, based on this readme, look for the new repository in the ./scripts/resources/data.json file, if exist new repo add it in its corresponding section." --programmatic > README.md
       
