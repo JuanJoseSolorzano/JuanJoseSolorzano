@@ -29,10 +29,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
         run: python .github/scripts/chart.py
-        
+
       - name: Generate README using Copilot
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }} 
+          GH_TOKEN: ${{ secrets.COPILOT_PAT }}
         run: |
           gh copilot -i "Review the current README.md file, based on this readme, look for the new repository in the ./scripts/resources/data.json file, if exist new repo add it in its corresponding section. If nothing new, do nothing." --no-ask-user > README.md
       
