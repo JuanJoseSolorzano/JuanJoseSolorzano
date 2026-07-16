@@ -18,7 +18,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install PyGithub, seaborn
+        run: pip install PyGithub seaborn
 
       - name: Run script
         env:
