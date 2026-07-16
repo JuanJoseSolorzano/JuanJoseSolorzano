@@ -9,20 +9,19 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write             # needed to push the updated README
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install PyGithub
+        run: pip install PyGithub, seaborn
 
       - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
-        run: python .github/scripts/update_readme.py
+        run: python .github/scripts/updater.py
