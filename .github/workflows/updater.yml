@@ -2,8 +2,8 @@ name: Auto‑Update README
 
 on:
   schedule:
-    - cron: "0 * * * *"          # every hour – adjust to your needs
-  workflow_dispatch:              # so you can run it manually
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -20,8 +20,19 @@ jobs:
       - name: Install dependencies
         run: pip install PyGithub seaborn
 
-      - name: Run script
+      - name: Run updater script
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
         run: python .github/scripts/updater.py
+      - name: Run chart script
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
+        run: python .github/scripts/chart.py
+      - name: Run agent
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
+        run: python -c "Hello from agent test"
+

@@ -8,6 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import json
+from datetime import date
 
 DATA_PCT_PATH = ".github/scripts/resources/data_pct.json"
 PLOT_PATH = ".github/scripts/resources/language_chart.png"
@@ -71,7 +72,7 @@ ax.set_xlim(0, max(sizes) * 1.15)     # extra space for labels
 # Labels and optional title
 ax.set_xlabel("Percentage of Code", fontsize=13, color="white")
 ax.set_ylabel("")
-# ax.set_title("Language Distribution", fontsize=18, fontweight="bold", pad=20)
+ax.set_title(f"Updated: {date.today().strftime("%B %d, %Y")}", fontsize=12, pad=20)
 
 # --- Save the figure ---
 plt.tight_layout()
