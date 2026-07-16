@@ -70,9 +70,10 @@ ax.grid(False, axis="y")              # no horizontal grid lines
 ax.set_xlim(0, max(sizes) * 1.15)     # extra space for labels
 
 # Labels and optional title
+current_day = date.today().strftime("%B %d, %Y")
 ax.set_xlabel("Percentage of Code", fontsize=13, color="white")
 ax.set_ylabel("")
-ax.set_title(f"Updated: {date.today().strftime("%B %d, %Y")}", fontsize=12, pad=20)
+ax.set_title(f"Updated: {current_day}", fontsize=12, pad=20)
 
 # --- Save the figure ---
 plt.tight_layout()
