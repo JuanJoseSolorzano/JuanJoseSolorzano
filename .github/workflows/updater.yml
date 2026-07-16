@@ -2,7 +2,7 @@ name: Auto‑Update README
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
       - name: Install Official Copilot Extension
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: apt install gh
+        run: gh extension install github/gh-copilot
 
       - name: Generate README using Copilot
         env:
