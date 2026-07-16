@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,9 +29,34 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
         run: python .github/scripts/chart.py
-      - name: Run agent
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          TARGET_REPO: ${{ github.repository }}   # or hardcode "owner/repo"
-        run: python -c "Hello from agent test"
+      - name: Setup Copilot
+        uses: actions/setup-node@v4
+        with:
+          node-version '20'
+      - name: Install Copilot CLI
+        run: npm install -g @githubnext/github-copilot-cli
+
+      - name: Authenticate Copilot CLI
+        run: |
+          echo "${{ secrets.PERSONAL_ACCESS_TOKEN }}" | github-copilot-cli auth --stdin
+            
+      - name: Generate README using Copilot
+        run: |
+          github-copilot-cli what-the-shell "Review the current README.md file, based on this readme, look for the new repository in the ./scripts/resources/data.json file, if exist new repo add it in its corresponding section." --programmatic > README.md
+      
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: auto-update README.md via GitHub Copilot [skip ci]"
+            git push origin main
+          else
+            echo "No changes detected in README.md"
+          fi
+
+   
+      
 
