@@ -16,8 +16,6 @@ with open(DATA_PCT_PATH,'r') as file:
     file_info = json.load(file)
 languages = list(file_info.keys())
 sizes = list(file_info.values())
-#languages = ["Python", "C#", "PowerShell", "Jupyter", "Shell", "Other"]
-#sizes     = [69.2, 19.8, 6.0, 1.6, 1.2, 2.2]
 
 # Create a DataFrame for seaborn
 df = pd.DataFrame({"Language": languages, "Percentage": sizes})

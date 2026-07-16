@@ -13,7 +13,7 @@
     🔷 <b>PowerShell 6.0%</b> &nbsp;·&nbsp;
     📓 <b>Jupyter 1.6%</b> &nbsp;·&nbsp;
     🐚 <b>Shell 1.2%</b> &nbsp;·&nbsp;
-    ⚙️ <b>Other 2.2%</b>
+    ⚙️ <b>Other 0.2%</b>
   </sub>
 </p>
 
